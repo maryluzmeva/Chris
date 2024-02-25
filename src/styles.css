@@ -1,0 +1,167 @@
+:root {
+    --branding-color: #e7ecef;
+    --secondary-color:#274c77;
+  }
+  
+  body {
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: black;
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-weight: bold;
+  }
+  
+  h1 {
+    font-size: 96px;
+    line-height: 1.5;
+  }
+  
+  h2 {
+    font-size: 64px;
+  }
+  
+  p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+  }
+  
+  ul {
+    list-style-type: none;
+    line-height: 2;
+  }
+  
+  .hero {
+    background-image: url(/images/hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 20% ;
+    text-align: center;
+    padding: 160px 10px;
+  }
+  
+  .hero p {
+    font-size: 30px;
+    margin: 0;
+  }
+  
+  .hero h2 {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.5;
+    font-size: 24px;
+  }
+  
+  .hero-contact {
+    background-image: url(/images/contact.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 20% ;
+    text-align: center;
+    padding: 160px 10px;
+  }
+  
+  .content-container {
+    padding: 120px 20px;
+  }
+  
+  .content h1 {
+    font-size: 64px;
+    line-height: 80px;
+  }
+  
+  .content h2 {
+    font-size: 18px;
+  }
+  
+  .content h3 {
+    font-size: 24px;
+    line-height: 1.5;
+  }
+  
+  .content p {
+    font-size: 14px;
+  }
+  
+  .content {
+    margin: 30px;
+  }
+  
+  .content-title {
+    background-image: url(/images/header.png);
+    background-size: cover;
+    background-position-y: 35% ;
+    text-align: center;
+    padding: 160px 10px;
+  }
+  .btn-branding {
+    background: var(--secondary-color);
+    border-radius: 4px;
+    color: white;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 15px 30px;
+  }
+  
+  .btn-branding-primary {
+    color: var(--secondary-color);
+    border: 1px solid var(--branding-color);
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 15px 30px;
+  }
+  .grid-3-columns {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-3-columns-first-narrow {
+  grid-template-columns: 1fr 2fr 2fr;
+}
+  @media (max-width: 900px) {
+    h1 {
+      font-size: 44px;
+      line-height: 56px;
+    }
+  
+    h2 {
+      font-size: 44px;
+    }
+  
+    .hero {
+      padding: 140px 20px;
+    }
+  
+    .content {
+      text-align: center;
+      padding: 0;
+    }
+  
+    .project-desciption {
+      padding: 0;
+      text-align: center;
+    }
+  
+    .content-title {
+      padding: 140px 20px;
+    }
+  
+    .social-networks {
+    font-size: 20px;
+    display:block;
+    margin-bottom: 8px;
+  }
+  }
